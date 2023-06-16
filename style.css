@@ -128,9 +128,6 @@ section{
     display: flex;
     flex-direction: column;
 }
-.img-box .img-one{
-    position:relative;
-    right:10px;
 .img-two{
     margin-left: 10px;
 }
