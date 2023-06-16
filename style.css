@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Epilogue:wght@400;700&family=Fraunces:wght@600&family=Nunito+Sans&display=swap');
+
+*,*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow";
+}
+
+:root{
+    --lightBlack:#162542;
+    --gray:#7B8BAD;
+    --orange:#F16718;
+    --white:#ffffff;
+    --lightGray:#E8EFF2;
+    --butHover:#FF9B62;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+header{
+    width: 345px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+}
+button{
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    font-family: "Barlow";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+header button{
+    background-color: var(--lightGray);
+    color: var(--lightBlack);
+}
+header button:hover{
+    background-color: var(--lightBlack);
+    color: var(--white);
+    transition: 1s;
+}
+main{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+.section-one .typemaster-texts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 32px;
+}
+.typemaster-texts h1{
+    font-family: "Barlow";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--lightBlack);
+    text-transform: uppercase;
+}
+.section-one .typemaster-texts p{
+    font-family: "Barlow";
+    font-weight: 500;
+    font-style: 16px;
+    line-height: 26px;
+    color: var(--gray);
+}
+.link-butt-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+.link-butt-box button{
+    background-color: var(--orange);
+    color: var(--white);
+}
+.link-butt-box a{
+    text-decoration: none;
+    font-family: "Barlow";
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray);
+    text-transform: uppercase;
+}
+.link-butt-box button:hover{
+    background-color: var(--butHover);
+    transition: 1s;
+}
+.mob-clc .clc-one{
+    margin-top: 24px;
+    position: relative;
+    right: -21px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.tablet-clc {
+    display: none;
+}
+.desktop-clc{
+    display: none;
+}
+.gray-box{
+    display: none;
+}
+section{
+    margin-top: 20px;
+}
+.section-two{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+.img-two{
+    margin-left: 10px;
+}
+.mechanical-texts{
+    width: 375px;
+    margin-top: 33px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mechanical-texts h1{
+    width: 200px;
+    font-family: "Barlow";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: var(--lightBlack);
+    text-transform: uppercase;
+}
+.mechanical-texts p{
+    width: 310px;
+    font-family: "Barlow";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--gray);
+}
+.img-three{
+    display: none;
+
+}
+.img-four{
+    display: none;
+}
+.img-five{
+    display: none;
+}
+.img-six{
+    display: none;
+}
+.gray-deskt{
+    display: none;
+}
+.before-footer{
+    margin-top: 100px;
+}
+.boxes{
+    width: 375px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 60px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box h2{
+    width: 213px;
+    font-family: "Barlow";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--lightBlack);
+    text-transform: uppercase;
+    margin-top: 48px;
+}
+.box p{
+    width: 338px;
+    font-family: "Barlow";
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--gray);
+    margin-top: 24px;
+}
+footer{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+h4{
+    font-family: "Barlow";
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--gray);
+}
+h4{
+    font-weight: 700;
+}
+span{
+    font-weight: 500;
+}

@@ -1,0 +1,244 @@
+@media screen and (min-width:768px){
+    header{
+        width: 760px;
+        margin-top: 40px;
+    }
+    header button{
+        width: 175px;
+        height: 58px;
+    }
+    main{
+        width: 820px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+    .section-one{ 
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .clc-one{
+        display: none;
+    }
+    .tablet-clc{
+        display: block;
+    }
+    .mob-clc{
+        width: 312px;
+    }
+    .typemaster-texts{
+        display: flex;
+        justify-content: center;
+    }
+    .typemaster-texts h1 {
+        width: 339px;
+    }
+    .typemaster-texts p{
+        width: 339px;
+    }
+    .gray-box{
+        display: none;
+    }
+    .link-butt-box{
+        gap: 37px;
+    }
+    section{
+        width: 820px;
+    }
+    .section-two{
+        width: 760px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-one{
+        display: none;
+    }
+    .img-two{
+        display: none;
+    }
+    .img-three{
+        display: block;
+        width: 300px;
+    }
+    .img-four{
+        display: block;
+        width: 621px;
+    }
+    .img-box{
+        width: 760px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        justify-content: space-around;
+        align-items: center;
+        gap: 40px;
+    }
+    .mechanical-texts{
+        width: 760px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mechanical-texts h1{
+        text-align: start;
+    }
+    .mechanical-texts p{
+        width: 470px;
+        text-align: start;
+        margin-left: 10px;
+    }
+    .img-five{
+        display: none;
+    }
+    .img-six{
+        display: none;
+    }
+    .before-footer{
+        margin-top: 100px;
+        width: 820px;
+        display: flex;
+        justify-content: center;
+    }
+    .boxes{
+        width: 760px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 60px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .box h2{
+        text-align: start;
+    }
+    .box p {
+        text-align: start;
+    }
+
+}
+
+
+@media screen and (min-width:1440px){
+    header{
+        width: 1150px;
+        margin-top: 55px;
+    }
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .section-one{
+        width: 1150px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 170px;
+        row-gap: 20px;
+    }
+    .tablet-clc{
+        display: none;
+    }
+    .desktop-clc{
+        display: block;
+        width: 430px;
+       
+    }
+    .gray-box{
+        display: block;
+    }
+    .mob-clc{
+        margin-right: 90px;
+        display: flex;
+    }
+    .typemaster-texts h1{
+        font-size: 56px;
+        line-height: 56px;
+    }
+    .typemaster-texts p{
+        width: 445px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .link-butt-box{
+        gap: 40px;
+    }
+    .img-one{
+        display: none;
+    }
+    .img-two{
+        display: none;
+    }
+    .img-three{
+        display: none;
+    }
+    .img-four{
+        display: none;
+    }
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 60px;
+        align-items: end;
+    }
+    .section-two{
+        width: 1350px;
+        display: flex;
+        flex-direction: row;
+    }
+    .img-box{
+        margin-left: 2px;
+    }
+    .img-five{
+        display: block;
+        
+    }
+    .img-six{
+        display: block;
+    }
+    .mechanical-texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-left: 100px;
+    }
+    .mechanical-texts p{
+        width: 255px;
+    }
+    .gray-deskt{
+        display: block;
+        bottom: 1%;
+    }
+    .before-footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;;
+        align-items: center;
+    }
+    .boxes{
+        width: 1160px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .box h2{
+        width: 218px;
+    }
+    .box p{
+        width: 205px;
+    }
+    
+    
+}
